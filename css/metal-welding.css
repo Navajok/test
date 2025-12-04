@@ -76,3 +76,28 @@
     margin-bottom: 84px;
 
 }
+
+/* ===========Metal Working Example=========== */
+.metalWorksExamples {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+    padding: 0 58px 0 58px;
+}
+
+.metalWorksExamples-box {
+    text-align: center;
+}
+
+.metalWorksExamples-box h1 {
+    font-size: 48px;
+    margin-bottom: 55px;
+    letter-spacing: -0.015em;
+}
+
+.metalWorksExamples-box p {
+    margin-bottom: 65px;
+    font-size: 16px;
+    line-height: 152.63%;
+    letter-spacing: -0.015em;
+}
