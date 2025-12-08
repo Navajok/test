@@ -111,10 +111,11 @@ footer {
 .logo-black img {
   width: 15vw;
   height: 10vw;
+  margin-top: -60px;
 }
 
 .logo-black {
-  margin-top: -60px;
+  overflow: hidden;
 }
 
 .footer-col h3 {

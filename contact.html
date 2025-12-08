@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -80,15 +81,16 @@
         <h2>Get A Quote</h2>
         <div class="underline"></div>
 
-        <form action="https://formsubmit.co/fbb02ab9d2dacc8f50d3af1a33bcb6d0" method="POST">
+        <form action="https://formspree.io/f/xzznargk" method="POST" enctype="multipart/form-data">
             <div class="row">
-                <input type="text" name="Name" placeholder="Name" />
-                <input type="text" name="Phone" placeholder="Phone" />
-                <input type="email" name="Email" placeholder="Email" />
+                <input type="text" name="Name" placeholder="Name"/>
+                <input type="text" name="Phone" placeholder="Phone"/>
+                <input type="email" name="email" placeholder="Email"/>
             </div>
 
             <label>Drawings</label>
-            <input type="file" multiple />
+            <input type="file" name="Drawings" multiple />
+
             <textarea placeholder="Message"></textarea>
             <button type="submit">Submit</button>
             <br>
