@@ -8,7 +8,7 @@
 .slider {
     position: relative;
     width: 100%;
-    height: 313px;
+    height: 36vh;
     overflow: hidden;
     margin-bottom: 32px;
 }
@@ -41,7 +41,7 @@
 }
 
 .caption h1 {
-    font-size: 64px;
+    font-size: 4.4vw;
 }
 
 /* ===========Description=========== */

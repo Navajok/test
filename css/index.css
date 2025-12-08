@@ -1,13 +1,13 @@
 .section-head {
   margin-bottom: 62px;
-  font-size: 43px;
+  font-size: 3vw;
 }
 
-@media screen and (min-width:1920px) {
+/* @media screen and (min-width:1920px) {
   .section-head {
-    font-size: 54px;
+    font-size: 55px;
   }
-}
+} */
 
 hr {
   height: 3px;
@@ -19,7 +19,7 @@ hr {
 .slider {
   position: relative;
   width: 100%;
-  height: 723px;
+  height: 87vh;
 }
 
 .slide {
@@ -29,7 +29,7 @@ hr {
   opacity: 0;
 }
 
-.slide.active {
+.active {
   opacity: 1;
 }
 
@@ -47,26 +47,28 @@ hr {
 
 .caption {
   position: absolute;
-  top: 321px;
+  top: 39vh;
   left: 10%;
-  max-width: 750px;
   color: white;
+
 }
 
 .caption h1 {
-  font-size: 36px;
-  margin-bottom: 15px;
+  font-size: 2.4vw;
+  margin-bottom: 1vw;
 }
 
 .caption p {
-  margin-bottom: 20px;
-  line-height: 20px;
+  font-size: 1vw;
+  margin-bottom: 1.2vw;
+  line-height: 1.2vw;
 }
 
 .btn {
+  font-size: 1vw;
   position: absolute;
   top: 100%;
-  padding: 8px 26px;
+  padding: 0.8vh 1.8vw;
   border: 2px solid white;
   border-radius: 10px;
   color: white;
@@ -76,17 +78,17 @@ hr {
 }
 
 
-@media screen and (min-width:1920px) {
+/* @media screen and (min-width:1920px) {
   .caption h1 {
     font-size: 45px;
   }
 
   .caption p,
   .btn {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 25px;
   }
-}
+} */
 
 .prev,
 .next {
@@ -95,20 +97,20 @@ hr {
   transform: translateY(-50%);
   background: transparent;
   border: 2px solid white;
-  width: 45px;
-  height: 45px;
+  width: 3vw;
+  height: 5.3vh;
   border-radius: 50%;
   color: white;
-  font-size: 20px;
+  font-size: 1.3vw;
   cursor: pointer;
 }
 
 .prev {
-  left: 40px;
+  left: 3vw;
 }
 
 .next {
-  right: 40px;
+  right: 3vw;
 }
 
 .prev:hover,
@@ -121,35 +123,35 @@ hr {
 .companies img {
   width: 100%;
   height: 100%;
-  margin: auto;
+  margin-bottom: 8vw;
 }
 
 /* ===========Headline=========== */
 .headline {
   text-align: center;
-  margin: 120px 20px 20px 20px;
+  margin: 0 20px 8vw 20px;
 }
 
 .headline h1 {
-  font-size: 36px;
-  margin-bottom: 30px;
+  font-size: 2.4vw; 
+  margin-bottom: 1.6vw;
 }
 
 .headline p {
-  font-size: 24px;
-  line-height: 32px;
-  margin-bottom: 100px;
+  font-size: 1.6vw;
+  line-height: 2vw;
 }
 
-@media screen and (min-width:1920px) {
+/* @media screen and (min-width:1920px) {
   .headline h1 {
     font-size: 45px;
   }
 
   .headline p {
     font-size: 30px;
+    line-height: 40px;
   }
-}
+} */
 
 /* ===========Service=========== */
 .services {
@@ -176,14 +178,14 @@ hr {
 }
 
 .grid-box p {
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 
-@media screen and (min-width:1920px) {
+/* @media screen and (min-width:1920px) {
   .grid-box p {
     font-size: 25px;
-  }
-}
+  } */
+
 
 /* ===========Metal Welding Homepage=========== */
 .metalWelding {
@@ -194,13 +196,14 @@ hr {
 }
 
 .metalWelding-text h1 {
-  font-size: 48px;
+  font-size: 3.3vw;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   margin-bottom: 14px;
 }
 
 .metalWelding-text p {
+  font-size: 1vw;
   line-height: 152.63%;
 }
 
@@ -214,7 +217,11 @@ hr {
   margin-left: -50px;
 }
 
-@media screen and (min-width:1920px) {
+.metalWelding-img img {
+  width: 100%;
+}
+
+/* @media screen and (min-width:1920px) {
   .metalWelding-text h1 {
     font-size: 60px;
   }
@@ -222,16 +229,13 @@ hr {
   .metalWelding-text p {
     font-size: 20px;
   }
-}
+} */
 
-.metalWelding-img img {
-  width: 100%;
-}
 
 /* ===========TRUSTED BY=========== */
 .trustedBy {
   text-align: center;
-  margin-bottom: 142px;
+  margin-bottom: 100px;
 }
 
 .trustedlogos {
@@ -241,8 +245,13 @@ hr {
   height: auto;
   border: 3px solid black;
   border-radius: 20px;
-  padding: 25px 0 25px 0;
+  padding: 1vw 0 1vw 0;
 }
+
+.trustedlogos img {
+  width: 100%;
+}
+
 
 /* ===========FEATURED=========== */
 .featured {
